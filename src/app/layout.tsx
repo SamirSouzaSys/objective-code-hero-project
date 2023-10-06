@@ -1,8 +1,35 @@
-import '@/styles/globals.css'
 import type { Metadata } from 'next'
-import { Inter } from 'next/font/google'
+import localFont from 'next/font/local'
+import '@/styles/globals.css'
 
-const inter = Inter({ subsets: ['latin'] })
+const myFonts = localFont({
+  src: [
+    {
+      path: './fonts/ptsans-bolditalic-webfont.woff2',
+      style: 'normal'
+    },
+    {
+      path: './fonts/ptsans-bold-webfont.woff2',
+      style: 'normal'
+    },
+    {
+      path: './fonts/ptsanscaption-bold-webfont.woff2',
+      style: 'normal'
+    },
+    {
+      path: './fonts/ptsans-italic-webfont.woff2',
+      style: 'normal'
+    },
+    {
+      path: './fonts/ptsanscaption-regular-webfont.woff2',
+      style: 'normal'
+    },
+    {
+      path: './fonts/ptsans-regular-webfont.woff2',
+      style: 'normal'
+    },
+  ]
+})
 
 export const metadata: Metadata = {
   title: 'Objective Code Hero',
@@ -15,8 +42,8 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en">
-      <body className={inter.className}>{children}</body>
+    <html lang="en" className={myFonts.className}>
+      <body>{children}</body>
     </html>
   )
 }
