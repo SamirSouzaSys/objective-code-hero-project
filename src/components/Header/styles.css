@@ -1,0 +1,52 @@
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 64px;
+    padding: 0 24px;
+}
+
+.logoImg{
+    margin-right: 100px;
+}
+
+.textGroup{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.namesGroup{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+
+.namesGroup span{
+    width: 105px;
+    text-align: right;
+    font-size: 12px;
+    color:var(--dark-smoke);
+}
+
+.userName {
+    font-weight: bold;
+}
+
+.userInitials{
+    background-color: var(--snow);
+    width: 32px;
+    height: 32px;
+    color:var(--dark-smoke);
+    border-radius: 4pt;
+    text-align: center;
+    padding:5px;
+    margin-left: 16px;
+}
+
+.userInitials span{
+    font-size: 14px;
+    font-weight: bolder;
+    line-height: 1.6;
+}
+

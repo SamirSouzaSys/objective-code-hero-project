@@ -1,8 +1,16 @@
+import React from 'react'
 import './styles.css'
 
-const Main = () => {
+type MainProps = {
+    children: React.ReactNode
+}
+
+const Main = (props: MainProps) => {
+    return (
     <>
+    {props.children}
     </>
+    )
 }
 
 
