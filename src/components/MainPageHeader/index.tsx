@@ -5,7 +5,7 @@ import searchIcon from './assets/search.svg'
 
 const MainPageHeader = () => {
     return(
-        <div className='container'>
+        <div className='containerMainPageHeader'>
             <h1 className='title'>Busca de personagens</h1>
             <label className='labelSearch'>Nome do personagem</label>
             <div className='divSearch'>
