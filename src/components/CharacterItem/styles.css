@@ -1,0 +1,70 @@
+.divItem{
+    background-color: white;
+    height: 88px;
+    border-radius: 4px;
+    padding: 20px 16px;
+    overflow: hidden;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    box-shadow: 0 0 5px var(--shadow);
+}
+
+.CharacterItemColumn {
+    width:100%;
+}
+
+.CharacterItemColumn:nth-child(n+2) {
+    display: none;
+}
+
+@media (min-width: 800px) {
+    .CharacterItemColumn:nth-child(n+2){
+        display: unset;   
+    }
+    .CharacterItemColumn{
+        width: 33%;
+    }
+}
+
+.divCharacter{
+    display:flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.divCharacterImage{
+    width: 48px;
+    height: 48px;
+    background-color: red;
+    overflow: hidden;
+    border-radius: 4px;
+    margin-right: 24px;
+}
+
+.divCharacterImage > img{
+    overflow: hidden;
+}
+.divCharacterName{
+    color: var(--dark-smoke);
+    font-size: 16px;
+    font-weight: bold;
+
+}
+.divSerie{
+    color: var(--dark-smoke);
+    font-size: 14px;
+}
+
+.divSerieTitle{
+    
+}
+
+.divEvent{
+    color: var(--dark-smoke);
+    font-size: 14px;
+
+}
+.divEventTitle{
+
+}
