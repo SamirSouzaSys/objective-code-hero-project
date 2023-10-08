@@ -36,15 +36,14 @@ const CharacterList = ({
     return (
         <div className='containerCharacterList'>
             <div className="titles">
-                <span>Personagem</span>
-                <span>Séries</span>
-                <span>Eventos</span>
+                <span className='titleSpans'>Personagem</span>
+                <span className='titleSpans'>Séries</span>
+                <span className='titleSpans'>Eventos</span>
             </div>
             <div className="items">
                 {characterList.map((item) => (
                     <CharacterItem key={item.character?.id} data={item}/>
                 ))}
-                <CharacterItem/>  
             </div>
         </div>
     )
