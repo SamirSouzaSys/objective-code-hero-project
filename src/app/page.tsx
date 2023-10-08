@@ -14,82 +14,379 @@ export default function Home() {
               [{
                 character: {
                     id: 1,
-                    thumbnail: 'Thumbnail vazio denovo 1',
-                    name: 'Sem Nome nenhum 1'
+                    thumbnail: 'http://i.annihil.us/u/prod/marvel/i/mg/c/e0/535fecbbb9784.jpg',
+                    name: 'Abner Jenkins'
                 },
                 series: [
                     {
                         id: 1,
-                        title: 'série título vazio 1 A'
+                        title: 'Iron Man: Armor Wars'
                     },
                     {
                         id: 2,
-                        title: 'série título vazio 2 B'
+                        title: ' Old Man Hawkeye'
+                    },
+                    {
+                        id: 3,
+                        title: ' Fantastic Four Visionaries: Walter Simonson Vol. 1'
                     }
                 ],
                 events:[{
                     id:1,
-                    title: 'evento título vazio 1 A'
-                },{
+                    title: 'AvX'
+                }
+                ,{
                     id:2,
-                    title: 'evento título vazio 2 B'
-                }]
+                    title: 'Demon in the Bottle'
+                }
+                ,{
+                    id:3,
+                    title: 'Dynasty M'
+                }
+            ]
                 },
-              {
-                character: {
-                    id: 2,
-                    thumbnail: 'Thumbnail vazio denovo 2',
-                    name: 'Sem Nome nenhum 2'
-                },
-                series: [
-                    {
-                        id: 1,
-                        title: 'série título vazio 1 A'
-                    },
-                    {
+                {
+                    character: {
                         id: 2,
-                        title: 'série título vazio 2 B'
+                        thumbnail: 'http://i.annihil.us/u/prod/marvel/i/mg/c/e0/535fecbbb9784.jpg',
+                        name: 'Abner Jenkins'
                     },
-                    {
-                        id: 1,
-                        title: 'série título vazio 1 A'
-                    },
-                    {
-                        id: 2,
-                        title: 'série título vazio 2 B'
+                    series: [
+                        {
+                            id: 1,
+                            title: 'Iron Man: Armor Wars'
+                        },
+                        {
+                            id: 2,
+                            title: ' Old Man Hawkeye'
+                        },
+                        {
+                            id: 3,
+                            title: ' Fantastic Four Visionaries: Walter Simonson Vol. 1'
+                        }
+                    ],
+                    events:[{
+                        id:1,
+                        title: 'AvX'
                     }
-                ],
-                events:[{
-                    id:1,
-                    title: 'evento título vazio 1 A'
-                },{
-                    id:2,
-                    title: 'evento título vazio 2 B'
-                }]
-              }, {
-                character: {
-                    id: 3,
-                    thumbnail: 'Thumbnail vazio denovo 3',
-                    name: 'Sem Nome nenhum 3'
-                },
-                series: [
-                    {
-                        id: 1,
-                        title: 'série título vazio 1 A'
-                    },
-                    {
-                        id: 2,
-                        title: 'série título vazio 2 B'
+                    ,{
+                        id:2,
+                        title: 'Demon in the Bottle'
                     }
-                ],
-                events:[{
-                    id:1,
-                    title: 'evento título vazio 1 A'
-                },{
-                    id:2,
-                    title: 'evento título vazio 2 B'
-                }]
-              }]
+                    ,{
+                        id:3,
+                        title: 'Dynasty M'
+                    }
+                ]
+                },
+                {
+                        character: {
+                            id: 3,
+                            thumbnail: 'http://i.annihil.us/u/prod/marvel/i/mg/c/e0/535fecbbb9784.jpg',
+                            name: 'Abner Jenkins'
+                        },
+                        series: [
+                            {
+                                id: 1,
+                                title: 'Iron Man: Armor Wars'
+                            },
+                            {
+                                id: 2,
+                                title: ' Old Man Hawkeye'
+                            },
+                            {
+                                id: 3,
+                                title: ' Fantastic Four Visionaries: Walter Simonson Vol. 1'
+                            }
+                        ],
+                        events:[{
+                            id:1,
+                            title: 'AvX'
+                        }
+                        ,{
+                            id:2,
+                            title: 'Demon in the Bottle'
+                        }
+                        ,{
+                            id:3,
+                            title: 'Dynasty M'
+                        }
+                    ]
+                },
+                {
+                        character: {
+                            id: 4,
+                            thumbnail: 'http://i.annihil.us/u/prod/marvel/i/mg/c/e0/535fecbbb9784.jpg',
+                            name: 'Abner Jenkins'
+                        },
+                        series: [
+                            {
+                                id: 1,
+                                title: 'Iron Man: Armor Wars'
+                            },
+                            {
+                                id: 2,
+                                title: ' Old Man Hawkeye'
+                            },
+                            {
+                                id: 3,
+                                title: ' Fantastic Four Visionaries: Walter Simonson Vol. 1'
+                            }
+                        ],
+                        events:[{
+                            id:1,
+                            title: 'AvX'
+                        }
+                        ,{
+                            id:2,
+                            title: 'Demon in the Bottle'
+                        }
+                        ,{
+                            id:3,
+                            title: 'Dynasty M'
+                        }
+                    ]
+                },
+                {
+                        character: {
+                            id: 5,
+                            thumbnail: 'http://i.annihil.us/u/prod/marvel/i/mg/c/e0/535fecbbb9784.jpg',
+                            name: 'Abner Jenkins'
+                        },
+                        series: [
+                            {
+                                id: 1,
+                                title: 'Iron Man: Armor Wars'
+                            },
+                            {
+                                id: 2,
+                                title: ' Old Man Hawkeye'
+                            },
+                            {
+                                id: 3,
+                                title: ' Fantastic Four Visionaries: Walter Simonson Vol. 1'
+                            }
+                        ],
+                        events:[{
+                            id:1,
+                            title: 'AvX'
+                        }
+                        ,{
+                            id:2,
+                            title: 'Demon in the Bottle'
+                        }
+                        ,{
+                            id:3,
+                            title: 'Dynasty M'
+                        }
+                    ]
+                },
+                {
+                        character: {
+                            id: 6,
+                            thumbnail: 'http://i.annihil.us/u/prod/marvel/i/mg/c/e0/535fecbbb9784.jpg',
+                            name: 'Abner Jenkins'
+                        },
+                        series: [
+                            {
+                                id: 1,
+                                title: 'Iron Man: Armor Wars'
+                            },
+                            {
+                                id: 2,
+                                title: ' Old Man Hawkeye'
+                            },
+                            {
+                                id: 3,
+                                title: ' Fantastic Four Visionaries: Walter Simonson Vol. 1'
+                            }
+                        ],
+                        events:[{
+                            id:1,
+                            title: 'AvX'
+                        }
+                        ,{
+                            id:2,
+                            title: 'Demon in the Bottle'
+                        }
+                        ,{
+                            id:3,
+                            title: 'Dynasty M'
+                        }
+                    ]
+                },
+                {
+                        character: {
+                            id: 7,
+                            thumbnail: 'http://i.annihil.us/u/prod/marvel/i/mg/c/e0/535fecbbb9784.jpg',
+                            name: 'Abner Jenkins'
+                        },
+                        series: [
+                            {
+                                id: 1,
+                                title: 'Iron Man: Armor Wars'
+                            },
+                            {
+                                id: 2,
+                                title: ' Old Man Hawkeye'
+                            },
+                            {
+                                id: 3,
+                                title: ' Fantastic Four Visionaries: Walter Simonson Vol. 1'
+                            }
+                        ],
+                        events:[{
+                            id:1,
+                            title: 'AvX'
+                        }
+                        ,{
+                            id:2,
+                            title: 'Demon in the Bottle'
+                        }
+                        ,{
+                            id:3,
+                            title: 'Dynasty M'
+                        }
+                    ]
+                },
+                {
+                        character: {
+                            id: 8,
+                            thumbnail: 'http://i.annihil.us/u/prod/marvel/i/mg/c/e0/535fecbbb9784.jpg',
+                            name: 'Abner Jenkins'
+                        },
+                        series: [
+                            {
+                                id: 1,
+                                title: 'Iron Man: Armor Wars'
+                            },
+                            {
+                                id: 2,
+                                title: ' Old Man Hawkeye'
+                            },
+                            {
+                                id: 3,
+                                title: ' Fantastic Four Visionaries: Walter Simonson Vol. 1'
+                            }
+                        ],
+                        events:[{
+                            id:1,
+                            title: 'AvX'
+                        }
+                        ,{
+                            id:2,
+                            title: 'Demon in the Bottle'
+                        }
+                        ,{
+                            id:3,
+                            title: 'Dynasty M'
+                        }
+                    ]
+                },
+                {
+                        character: {
+                            id: 9,
+                            thumbnail: 'http://i.annihil.us/u/prod/marvel/i/mg/c/e0/535fecbbb9784.jpg',
+                            name: 'Abner Jenkins'
+                        },
+                        series: [
+                            {
+                                id: 1,
+                                title: 'Iron Man: Armor Wars'
+                            },
+                            {
+                                id: 2,
+                                title: ' Old Man Hawkeye'
+                            },
+                            {
+                                id: 3,
+                                title: ' Fantastic Four Visionaries: Walter Simonson Vol. 1'
+                            }
+                        ],
+                        events:[{
+                            id:1,
+                            title: 'AvX'
+                        }
+                        ,{
+                            id:2,
+                            title: 'Demon in the Bottle'
+                        }
+                        ,{
+                            id:3,
+                            title: 'Dynasty M'
+                        }
+                    ]
+                },
+                {
+                        character: {
+                            id: 10,
+                            thumbnail: 'http://i.annihil.us/u/prod/marvel/i/mg/c/e0/535fecbbb9784.jpg',
+                            name: 'Abner Jenkins'
+                        },
+                        series: [
+                            {
+                                id: 1,
+                                title: 'Iron Man: Armor Wars'
+                            },
+                            {
+                                id: 2,
+                                title: ' Old Man Hawkeye'
+                            },
+                            {
+                                id: 3,
+                                title: ' Fantastic Four Visionaries: Walter Simonson Vol. 1'
+                            }
+                        ],
+                        events:[{
+                            id:1,
+                            title: 'AvX'
+                        }
+                        ,{
+                            id:2,
+                            title: 'Demon in the Bottle'
+                        }
+                        ,{
+                            id:3,
+                            title: 'Dynasty M'
+                        }
+                    ]
+                },
+                {
+                    character: {
+                        id: 11,
+                        thumbnail: 'http://i.annihil.us/u/prod/marvel/i/mg/c/e0/535fecbbb9784.jpg',
+                        name: 'Abner Jenkins'
+                    },
+                    series: [
+                        {
+                            id: 1,
+                            title: 'Iron Man: Armor Wars'
+                        },
+                        {
+                            id: 2,
+                            title: ' Old Man Hawkeye'
+                        },
+                        {
+                            id: 3,
+                            title: ' Fantastic Four Visionaries: Walter Simonson Vol. 1'
+                        }
+                    ],
+                    events:[
+                        {
+                            id:1,
+                            title: 'AvX'
+                        }
+                        ,{
+                            id:2,
+                            title: 'Demon in the Bottle'
+                        }
+                        ,{
+                            id:3,
+                            title: 'Dynasty M'
+                        }
+                    ]
+                }
+            ]
             }
           />
         </div>
