@@ -54,7 +54,7 @@
     height: 21px;
 }
 
-@media (min-width: 600px) {
+@media (min-width: 800px) {
     .containerMainPageHeader{
         align-items: start;
     }
