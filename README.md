@@ -5,6 +5,7 @@
 
 > Como executar o projeto
  ```bash
+ - preencher o .env com as suas credenciais da API
  - npm install
  - npm start
  ```
