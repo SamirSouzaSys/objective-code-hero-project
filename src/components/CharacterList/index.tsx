@@ -7,33 +7,6 @@ type CharacterListProps = {
     characterElementsList: CharacterListElement[];
 }
 
-/*{
-     characterList = [{
-        character: {
-            id: 1,
-            thumbnail: 'Thumbnail vazio',
-            name: 'Sem Nome'
-        },
-        series: [
-            {
-                id: 1,
-                title: 'série título vazio 1'
-            },
-            {
-                id: 2,
-                title: 'série título vazio 2'
-            }
-        ],
-        events:[{
-            id:1,
-            title: 'evento título vazio 1'
-        },{
-            id:2,
-            title: 'evento título vazio 2'
-        }]
-    }] 
-}*/
-
 const CharacterList = (props: CharacterListProps) => {
     return (
         <div className='containerCharacterList'>
