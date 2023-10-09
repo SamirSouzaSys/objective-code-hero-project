@@ -11,7 +11,7 @@
     box-shadow: 0 0 5px var(--shadow);
 }
 
-.divItem:hover{
+.divPageNumber:hover{
     background-color: #ffffff50;
 }
 
