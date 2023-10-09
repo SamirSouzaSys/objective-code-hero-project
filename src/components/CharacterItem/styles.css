@@ -28,6 +28,7 @@
     }
     .divItem {
         min-height: 72px;
+        height: unset;
     }
 }
 

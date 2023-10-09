@@ -1,4 +1,5 @@
 import CharacterList from '@/components/CharacterList'
+import FooterPagination from '@/components/FooterPagination'
 import Header from '@/components/Header'
 import Main from '@/components/Main'
 import MainPageHeader from '@/components/MainPageHeader'
@@ -15,6 +16,7 @@ export default async function Home() {
             characterElementsList={characters.results}
             />
         </div>
+        <FooterPagination mobileScreen={true} total={20}/>
     </Main> 
   )
 }
