@@ -1,6 +1,6 @@
 .divItem{
     background-color: white;
-    min-height: 88px;
+    height: 72px;
     border-radius: 4px;
     padding: 20px 16px;
     overflow: hidden;
@@ -26,6 +26,9 @@
     .CharacterItemColumn{
         width: 33%;
     }
+    .divItem {
+        min-height: 72px;
+    }
 }
 
 .divCharacter{
@@ -36,7 +39,6 @@
 .divCharacterImage{
     width: 48px;
     height: 48px;
-    background-color: red;
     overflow: hidden;
     border-radius: 4px;
     margin-right: 24px;
