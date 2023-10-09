@@ -85,8 +85,13 @@ footer {
     border-color: #167ABC;
 }
 
-.divPageNumberActive:hover {
+.divPageNumber:hover,
+.leftArrowsStart:hover,
+.leftArrowsPrevious:hover,
+.rightArrowsEnd:hover,
+.rightArrowsPrevious:hover {
     background-color: #167ABC50;
     color: white;
     border-color: #167ABC50;
+    border-radius: 4px;
 }
