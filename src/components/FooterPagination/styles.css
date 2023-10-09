@@ -1,0 +1,92 @@
+footer {
+    background-color: white;
+    height: 79px;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+
+}
+
+.footerItems {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.leftArrows, .numbers, .rightArrows {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.leftArrows, .rightArrows, .footerItems {
+    gap: 16px;
+}
+
+.leftArrowsStart, .leftArrowsPrevious, .rightArrows, .rightArrowsEnd {
+    display: flex;
+}
+
+.leftArrowsStart {
+
+}
+.arrowSvg {
+    width: 20px;
+    height: 20px;
+}
+.leftArrowsPrevious {
+
+}
+.arrowSvg {
+
+}
+.numbers {
+    gap: 8px;
+}
+.rightArrows {
+
+}
+.rightArrowsEnd {
+
+}
+.arrowSvg {
+
+}
+.rightArrowsPrevious {
+
+}
+.arrowSvg {
+
+}
+
+.divPageNumber {
+    height: 32px;
+    width: 32px;
+    background-color: var(--snow);
+    border-color: var(--dark-snow);
+    border: 1px solid var(--dark-snow);
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    color: var(--dark-smoke);
+}
+
+.divPageNumberActive {
+    background-color: #167ABC;
+    color: white;
+    border-color: #167ABC;
+}
+
+.divPageNumberActive:hover {
+    background-color: #167ABC50;
+    color: white;
+    border-color: #167ABC50;
+}
