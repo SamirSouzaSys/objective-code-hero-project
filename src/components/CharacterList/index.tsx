@@ -1,14 +1,14 @@
 import { ReactNode } from 'react';
 import './styles.css'
-import { CharacterListElement } from '@/types/types';
+import { CharacterListElement } from '@/types/marvels';
 import CharacterItem from '../CharacterItem';
 
 type CharacterListProps = {
-    characterList?: CharacterListElement[];
+    characterElementsList: CharacterListElement[];
 }
 
-const CharacterList = ({
-    characterList = [{
+/*{
+     characterList = [{
         character: {
             id: 1,
             thumbnail: 'Thumbnail vazio',
@@ -31,8 +31,10 @@ const CharacterList = ({
             id:2,
             title: 'evento título vazio 2'
         }]
-    }]
-}: CharacterListProps) => {
+    }] 
+}*/
+
+const CharacterList = (props: CharacterListProps) => {
     return (
         <div className='containerCharacterList'>
             <div className="titles">
@@ -41,8 +43,8 @@ const CharacterList = ({
                 <span className='titleSpans'>Eventos</span>
             </div>
             <div className="items">
-                {characterList.map((item) => (
-                    <CharacterItem key={item.character?.id} data={item}/>
+                {props.characterElementsList.map(Item => (
+                    <CharacterItem key={Item.id} data={Item}/>
                 ))}
             </div>
         </div>

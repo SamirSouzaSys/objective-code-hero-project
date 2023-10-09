@@ -1,4 +1,4 @@
-import { CharacterListElement } from "@/types/types"
+import { CharacterListElement } from "@/types/marvels"
 import Image from 'next/image'
 import './styles.css'
 
@@ -7,28 +7,33 @@ type Props = {
 }
 
 const CharacterItem = (item: Props) => {
+    let seriesList: string[] = []
+    item.data?.series.items.map(item => seriesList.push(item.name))
+
+    let eventsList: string[] = []
+    item.data?.events.items.map(item => eventsList.push(item.name))
+
     return (
+        
         <div className='divItem'>
             <div className='divCharacter CharacterItemColumn'>
                 <div className='divCharacterImage'>
-                    <Image src={item.data?.character?.thumbnail} alt='' width={48} height={48}/>
+                    {item.data?.thumbnail.path && <Image src={item.data?.thumbnail.path +'.'+ item.data?.thumbnail.extension}
+                     alt='' width={48} height={48}/> || 'Vazio'} 
                     
                 </div>
                 <div className='divCharacterName'>
-                    {item.data?.character?.name}</div>
+                    {item.data?.name}</div>
             </div>
+
             <div className='divSerie CharacterItemColumn'>
-                {item.data?.series?.map((item) => (
-                    <p className='divSerieTitle'>
-                        {item.title}</p>
-                ))}
+                {seriesList.map(item => <p className='divSerieTitle'>{item}</p>)}
+                
             </div>
+            
             <div className='divEvent CharacterItemColumn'>
-                {item.data?.events?.map((item) => (
-                    <p className='divEventTitle'>
-                        {item.title}</p>
-                ))}
-            </div>
+                {eventsList.map(item => <p className='divEventTitle'>{item}</p>)}
+            </div> 
         </div>
     )
 }

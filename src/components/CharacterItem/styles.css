@@ -1,6 +1,6 @@
 .divItem{
     background-color: white;
-    height: 88px;
+    min-height: 88px;
     border-radius: 4px;
     padding: 20px 16px;
     overflow: hidden;
