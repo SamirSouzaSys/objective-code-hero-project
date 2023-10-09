@@ -11,6 +11,10 @@
     box-shadow: 0 0 5px var(--shadow);
 }
 
+.divItem:hover{
+    background-color: #ffffff50;
+}
+
 .CharacterItemColumn {
     width:100%;
 }
